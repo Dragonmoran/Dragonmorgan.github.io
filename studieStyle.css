@@ -1,0 +1,248 @@
+
+
+body, html{
+   height: 100%;
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   background-color: #49430d;
+   background-repeat: repeat;
+}
+
+h1{
+    font-family: Arial;
+    font-weight: medium;
+    font-size: 400%;
+    margin: auto;
+    text-align: center;
+}
+
+.paralax{
+    background-image: url(Billeder/Finalbackground.png);
+    height: 420%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -10px;
+}
+
+#pictureheader{
+    margin-top: 0px;
+    width: 1864px; 
+    height: 300px;
+    background-size: cover; 
+    background-image:url(Billeder/Deercollage.png)
+}
+
+#headerbox{
+    width: 1864px;
+    height: 80px;
+    background: #8D811B;
+    margin-left: 0px;
+    
+}
+
+#navbox{
+    width: 1900px;
+    height: 100px; 
+    background-color: #786E17;
+}
+
+#restbox{
+    width: 1470px;
+    height: 900px;
+    background-image: linear-gradient(180deg, #908270, #463d31);
+    margin: auto;
+    margin-bottom: 0px;
+}
+#restbox2{
+    width: 1470px;
+    height: 3250px;
+    background-image: linear-gradient(180deg, #908270, #463d31);
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.nav{
+    background-color:#615911;
+    overflow: hidden;
+    margin: auto;
+    width: 1864px;
+}
+
+.nav a{
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 153px;
+    font-size: 150%;
+    text-decoration: none;
+    font-family:Arial;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover{
+    background-color: #49430d;
+    color: rgb(215, 215, 215);
+    
+}
+
+.nav a.active {
+    background-color: #544d0f;
+    color:rgb(189, 189, 189);
+  }
+
+#contactbox{
+    width: 1470px;
+    height: 130px;
+    background-color: #615911;
+    margin: auto;
+    border-radius: 0px 0px 25px 25px;
+}
+
+h2{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 150%;
+    margin-top: 0px;
+    position: relative;
+    left: 440px;
+    bottom: -25px;
+}
+
+#child_div{
+    background-image: linear-gradient(180deg, #796954, #9f8f7a);
+    position: relative;
+    left: 250px;
+    bottom: -150px;
+    width: 980px;
+    height: 700px;
+    border-radius: 25px;
+    box-shadow: 50px 50px #28221b;
+    bottom: -80px;
+}
+
+h3{
+    text-align: center;
+    font-family: Arial;
+    font-size: 120%;
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+    bottom: -25px;
+}
+
+#newstext{
+    text-align: left;
+    font-family: Arial;
+    position: relative;
+    bottom: -25px;
+    right: -25px;
+    
+}
+
+#textlink{
+    color: #000000;
+    font-weight: bold;
+}
+
+#newspic{
+
+    background-image: url(Billeder/News2.png);
+    width: 681px;
+    height: 384px;
+    position: relative;
+    border-radius: 25px;
+    bottom: -30px;
+    right: -149px;
+    border: 10px solid #28221b;
+}
+#newspic2{
+
+    background-image: url(Billeder/News2.png);
+    width: 681px;
+    height: 384px;
+    position: relative;
+    border-radius: 25px;
+    bottom: -20px;
+    right: -249px;
+    border: 10px solid #28221b;
+}
+#newspic3{
+
+    background-image: url(Billeder/mod.png);
+    width: 681px;
+    height: 384px;
+    position: relative;
+    background-size: cover; 
+    border-radius: 25px;
+    bottom: -20px;
+    right: -249px;
+    border: 10px solid #28221b;
+}
+
+#headerboxnews{
+    background-color: #8D811B;
+    width: 980px;
+    height: 70px;
+     border-radius: 25px 25px 0px 0px;
+}
+
+
+#hidden, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6, #hidden7, #hidden8{
+    display: none;
+}
+
+
+
+#dots, #dots2, #dots3, #dots4, #dots5, #dots6, #dots7,#dots8{
+    display: inline;
+}
+
+h4 {    
+    font-family: Arial;
+    font-weight: medium;
+    font-size: 300%;
+    margin: auto;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.blogTekst{
+    background-color: #8D811B;
+    margin-bottom: 0px;
+    margin: auto;
+    width: 1200px;
+    position: relative;
+    top: 80px;
+    border-radius: 25px;
+    box-shadow: 25px 25px #28221b;
+    margin-bottom: 100px;
+
+}
+
+hr{
+    width: 1150px;
+    background-color: #000000;
+    border-width: 0px;
+    height: 3px;
+}
+
+.bloguddyb{
+    text-align: left;
+    font-family: Arial;
+    position: relative;
+    right: -25px;
+}
+
+#mybtn, #mybtn2, #mybtn3, #mybtn4, #mybtn5, #mybtn6, #mybtn7, #mybtn8{
+    background-color: #615911;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000000;
+    border-width: 0px;
+    font-family: Arial;
+    font-weight: bolder;
+}
